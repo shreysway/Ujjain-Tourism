@@ -18,14 +18,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// // Mobile menu toggle
-// const menuToggle = document.getElementById('menu-toggle');
-// const menu = document.querySelector('nav ul.nav-links');
-// menuToggle.addEventListener('click', () => {
-//     menu.classList.toggle('active');
-// });
-
-
+// Mobile menu toggle
 document.getElementById("menu-toggle").addEventListener("click", function() {
     document.querySelector(".nav-links").classList.toggle("active");
 });
